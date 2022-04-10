@@ -49,9 +49,9 @@
 
       <div class="flex space-x-4">
         <svg
-          width="20"
-          height="20"
-          viewBox="0 0 20 20"
+          width="30"
+          height="30"
+          viewBox="0 0 30 28"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
         >
@@ -67,7 +67,7 @@
           <svg
             width="20"
             height="20"
-            viewBox="0 0 29 29"
+            viewBox="0 0 30 30"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -79,9 +79,9 @@
           </svg>
         </button>
         <svg
-          width="20"
-          height="20"
-          viewBox="0 0 20 20"
+          width="30"
+          height="30"
+          viewBox="0 0 30 30"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
         >
@@ -121,7 +121,7 @@
           <div
             class="w-full h-auto lg:h-[600px] lg:bg-sanFranciscoDesktop lg:bg-cover lg:bg-center"
           >
-            <img class="lg:hidden" src="./img/sanFrancisco.jpg" alt="" />
+            <img class="lg:hidden" src="./public/img/sanFrancisco.jpg" alt="" />
           </div>
         </div>
       </div>
@@ -404,9 +404,9 @@
         toggleButtonSm.addEventListener("click", toggleDarkMode);
 
         function toggleDarkMode() {
-          htmlElement.classList.contains("dark")?
-          htmlElement.classList.remove("dark"):
-          htmlElement.classList.add("dark");
+          htmlElement.classList.contains("dark")
+            ? htmlElement.classList.remove("dark")
+            : htmlElement.classList.add("dark");
         }
       </script>
     </div>
